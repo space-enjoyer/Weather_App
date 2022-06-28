@@ -19,6 +19,11 @@ a {
 a:hover {
   color: yellow;
 }
+p {
+  font-family: "Joan", serif;
+  text-align: center;
+  color: yellow;
+}
 .line {
   color: #8ec351;
 }
