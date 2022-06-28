@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Joan&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3c80a9ec66.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <section class="weather">
+        <div class="new_options">
+          <div class="sect">
+            <div class="heading">
+              <h1 id="city"></h1>
+              <h2 id="current_time">Thursday 8:08</h2>
+            </div>
+            <div class="enter_city">
+              <form id="form">
+                <div class="mb-2">
+                  <label for="enter_city" class="form-label"></label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="enter_city"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter a city"
+                  />
+                </div>
+                <button type="submit">Submit</button>
+                  <button type="submit" class="cur_but"
+                    id="location-button"
+                  >
+                    Current
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="temp_and_hum">
+        <div class="current_temp">
+          <i class="fa-solid fa-sun"></i>
+          <span class="temperature" id="temperature"></span
+          ><span class="units">
+            <a href="#" id="celsius-link">°C</a> <span class="line">|</span
+          >
+          <a href="#" id="fahrenheit-link">°F</a>
+        </div>
+        
+        
+        <div class="col-6 hum">
+            <ul class="hum_wind">
+                <li id="description"></li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+            </ul>
+          </div>
+        </div>
+        <div class="predictions">
+          <ul class="pred_five">
+            <li class="one_day">
+              <i class="fa-solid fa-sun"></i>
+              <span>10℃ Friday</span>
+            </li>
+            <li class="one_day">
+              <i class="fa-solid fa-cloud"></i>
+              <span>9℃ Saturday</span>
+            </li>
+            <li class="one_day">
+              <i class="fa-solid fa-sun"></i>
+              <span>12℃ Sunday</span>
+            </li>
+            <li class="one_day">
+              <i class="fa-solid fa-sun"></i>
+              <span>17℃ Monday</span>
+            </li>
+            <li class="one_day">
+              <i class="fa-solid fa-sun"></i>
+              <span>14℃ Tuesday</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>

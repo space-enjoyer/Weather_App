@@ -1,0 +1,112 @@
+h1,
+h2 {
+  font-family: "Joan", serif;
+  margin-left: 20px;
+}
+h1 {
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+h2 {
+  font-size: 15px;
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+  color: #8ec351;
+}
+a:hover {
+  color: yellow;
+}
+.line {
+  color: #8ec351;
+}
+
+.weather {
+  border: 3px solid #8ec351;
+  border-radius: 20px;
+  padding-left: 5px;
+  margin: 27px;
+}
+.new_options {
+  display: flex;
+}
+.new_options > *:last-child {
+  align-self: center;
+}
+.enter_city {
+  position: relative;
+  left: 280px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+button,
+.this_city,
+.current_temp {
+  margin-right: 2px;
+  border: 3px solid yellow;
+  max-width: 130px;
+  border-radius: 7px;
+}
+.this_city:active {
+  border-style: none;
+  border: 3px solid yellow;
+}
+.current_temp {
+  margin-left: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 17px;
+}
+.temperature {
+  color: #8ec351;
+}
+.now_sun {
+  font-family: "Joan", serif;
+  color: #8ec351;
+  font-weight: 600;
+}
+.predictions {
+  margin-top: 10px;
+}
+.pred_five {
+  display: flex;
+}
+.one_day {
+  list-style: none;
+}
+.mb-2 {
+  max-width: 143px;
+}
+.sect {
+  display: flex;
+  justify-content: space-between;
+}
+.form-control {
+  padding: 2px;
+  position: relative;
+  right: 150px;
+  bottom: 13px;
+  border: 3px solid yellow;
+}
+button {
+  position: relative;
+  bottom: 52px;
+  left: 1px;
+}
+button:hover {
+  background-color: #8ec351;
+  transition: 0.3s;
+}
+.cur_but {
+  position: relative;
+  right: 5px;
+}
+.hum_wind {
+  list-style: none;
+}
+#description {
+  list-style: none;
+}
